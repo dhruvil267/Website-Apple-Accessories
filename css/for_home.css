@@ -1,0 +1,807 @@
+*{
+        
+    box-sizing: border-box;
+}
+.container{
+    max-width:100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.clr{
+    clear: both;
+}
+
+body{
+	
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.for_search{
+    background:gray;
+    border:1px solid black;
+    padding:16px;
+    overflow: hidden;
+}
+.for_search .one{
+    float:left;
+    text-align: center;
+    color:white;
+    padding-left:14px;
+}
+
+.for_search .two{
+    float: right;
+    
+}
+.for_search .two:hover{
+   font-weight: bold;
+}
+#for-color{
+    color:white;
+    padding-right:43px;
+}
+
+  
+  .for_search .one button {
+    background: #ddd;
+   
+  }
+  
+  .for_search .one button:hover {
+    background: #ccc;
+     cursor: pointer;
+  }
+  .for_search .two{
+      text-align: center;
+  }
+  .for_search .two a{
+      color:black;
+    text-decoration: none;
+  }
+    
+  #logo1{
+      width: 125px;
+      height: 65px;
+  }
+.for-dropdown{
+    overflow:hidden;
+}
+
+.for-dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    margin: 0;
+  }
+  .for-dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+   
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .for-dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .for_menu{
+    background:white;
+    display: grid;
+    color:white;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr;
+    grid-gap:20	px;
+    padding:16px 32px;
+
+}
+.for_menu #for-top{
+    padding-top:16px;
+  
+}
+
+.for_menu .after-dropdown a{
+    margin-right:24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+.for_menu .after-dropdown a:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.for-sec1 .img{
+    height: auto;
+    max-width: 100%;
+}
+.for-sec1{
+    text-align: center;
+    display:grid;
+
+    grid-template-columns: 1fr 1fr;
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+#sec1-h2{
+    font-size:16px;
+    margin-bottom: 32px;
+}
+#btn:hover{
+    background: black;
+    color:white;
+}
+#btn{
+    border-radius: 4%;
+    background:gray;
+    text-decoration: none;
+    color:white;
+    padding:11px;
+}
+.for-sec1 .three{
+    text-align: left;
+    height: 525px;
+    color:black;
+    padding-top:145px;
+    padding-left:64px;
+    background: white;
+}
+#sec1-h11{
+    color:white;
+    position: absolute;
+    top:70%;
+    left:72%;}
+#sec1-h12{
+    font-size:43px;
+        color:black;
+        position: absolute;
+        top:75%;
+        left:72%;
+    }
+    #img1{
+        width: 795px;
+        height: 525px;
+    }
+
+.sec-2{
+    margin-top:-4px;
+    background: white;
+    display: grid;
+    grid-gap:16px;
+    grid-template-columns: repeat(3,1fr);
+
+}
+#iphone{
+    width: 190px;
+    height: 210px;
+    
+}
+#iphonex{
+    width: 245px;
+    height: 250px;
+    padding-left: 5px;
+}
+.sec-2 .five{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background:gray;
+    color:white;
+}
+.sec-2 .six{
+    background: gray;
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:white;
+}
+
+.sec-2 .seven{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background:gray;
+    color:white;
+}
+
+.for-sec2{
+    padding-top:29px;
+}
+
+#btn-3,#btn-2,#btn-4
+{
+    display: block;
+}
+#btn-2{
+    margin-top:26px;    
+    width:150px;
+    text-decoration: none;
+    border:1px solid white;
+    color:white;
+    padding:16px;
+}
+
+#btn-3{
+    margin-top:70px;
+    text-decoration: none;
+    width:150px;
+    border:1px solid white;
+    color:white;
+    padding:16px;
+    margin-left: 25px;
+}
+#btn-4{
+    margin-top:112px;
+    text-decoration: none;
+    width:150px;
+    border:1px solid white;
+    color:white;
+    padding:16px;
+}
+.for-sec2 h2{
+    line-height: 1em;
+    font-size: 22px;
+}
+#btn-2:hover,#btn-4:hover,#btn-3:hover{
+    font-weight: bold;
+    color:black;
+    background:gray;
+    border:1px solid black;
+    font-size:110%;
+}
+.sec-2 .five:hover,.sec-2 .six:hover,.sec-2 .seven:hover{
+    border:2px solid black;
+    }
+
+
+
+
+ .sec-5{
+    margin:auto;
+    padding:32px 0;
+    margin:0;
+
+    background:white;
+    color:black;
+    text-align: center;
+}
+.sec-5 .sec52{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.sec-5 .sec52 h3 a{
+    text-decoration: none;
+    color:black;
+}
+.sec-5 .sec52 h3 a:hover{
+    color:gray;
+    text-decoration:underline;
+}
+
+
+.sec-6{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    background:gray;
+    color:white;
+    border-bottom: 1px solid grey;
+}
+.sec-6 .sec61{
+    padding:32px;
+
+    text-align: left;
+}
+.sec-6 .sec62{
+padding:51px;
+    text-align: center;
+}
+.sec-6 .sec61 li{
+
+color:white;
+padding-left:32px;
+}
+.sec-6 .sec61 li a{
+    text-decoration:none;
+    color:white;
+    padding-left:11px;
+}
+.sec-6 .sec61 li a:hover{
+    font-size:20px;
+}
+.sec-6 .sec62 a{
+
+    color:white;
+    padding-left:16px;
+ }
+ .sec-6 .sec62 a:hover{
+     font-size:20px;
+ }
+ #for-sec62{
+     padding-left: 208px;
+ }
+
+
+ .footer{
+     background:gray;
+
+ }
+ .footer .footer1 p{
+     padding-top:48px;
+    margin:0;
+    color:white;
+    text-align: center;
+    padding-bottom:16px; 
+ }
+ .footer .footer2 p{
+    margin:0;
+    color:white;
+    text-align: center;
+    padding-bottom:48px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+     /* ........................LOG_IN PAGE................................ */
+    .login{
+         padding-top:64px;
+     }
+
+.login .login-img{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.login .login-img img{
+    margin-top:64px;
+    width: 20%;
+    border-radius: 40%;
+}
+
+.login lable{
+    color:black;
+}
+.for-form input[type=text], .for-form input[type=password] {
+         color:black;
+        width:100%;
+        padding:6.5px;
+        margin:8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+}
+
+.for-form input[type=submit]{
+    
+    width: auto;
+    padding: 10px 18px;
+   background: gray;
+   color:white;
+    margin:8px 0;
+}
+.for-form input[type=submit]:hover{
+    background:black;
+    
+}
+.login .login-right{
+    padding-top:16px;
+    margin-left:-0.11rem;
+}
+
+.login .for-form{
+    position: relative;
+    margin: 0 auto; 
+    width:50%;  
+    padding:16px;
+    padding-bottom: 112px;
+}
+
+
+/* .......................................................register-form............................................. */
+.input-container {
+    display: -ms-flexbox; 
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: blue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  .btn {
+      margin-bottom: 16px;
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  #reg-form{
+      margin-bottom: 64px;
+  }
+
+  /* ...........................................Register popup................................................. */
+
+  .open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    top:27px;
+    right:30px;
+    background-color: gray;
+    
+    border: 3px solid #f1f1f1;
+
+  }
+  
+
+
+
+
+
+
+
+
+  /* .................................................product page....................................................*/
+  .mobile-1 h1{
+      margin:0;
+      padding:96px;
+      padding-top:112px;
+      color:black;
+      font-weight: bold;
+  }
+ .mobile-container{
+      text-align: center;
+      background: white;
+     
+  }
+  #toppic{
+      width: 845px;
+      height: 525px;
+  }
+
+  .mobile-2{
+      text-align: center;
+      background-color: white;
+      color: black;
+     
+  }
+
+
+.iphone-back{
+    padding: 64px;
+    background:white;
+    color:black;
+}
+  .mobile-3{
+    margin:32px;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap:20px;
+      
+  }
+  .mobile-3 .iphone-1{
+      background:white;
+   
+    text-align: center;
+    padding:16px;
+  }
+  #resize{
+      width: 240px;
+      height: 450px;
+  }
+
+  #i-btn{
+      font-weight: bold;
+      padding:10px;
+
+  }
+  #i-btn:hover{
+      background:black;
+      color:white;
+  }
+  .mobile-2 img
+  {
+      max-width: 100%;
+      height: auto;
+  }
+
+  @media only screen and (max-width: 1100px){
+    .mobile-3{
+        margin:32px;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-gap:20px;  
+      }
+.sec-6{
+    display: block;
+}
+.sec62{
+    display: none;
+}
+.for_menu{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;   
+}
+}
+
+  @media only screen and (max-width: 860px){
+      .for_menu{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;   
+      }
+  }
+  @media only screen and (max-width: 1190px){
+    
+.sec-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.sec3{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background: black;
+}
+  }
+  @media only screen and (max-width: 690px){
+    .mobile-3{
+        margin:32px;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          grid-gap:20px;
+          
+      }     
+.sec-6 ul li{
+    display: block;
+    padding:1rem;
+}
+
+.for-sec1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#sec1-h11{
+    position: absolute;
+    top:140%;
+}
+#sec1-h12{
+    position: absolute;
+    top:146%;
+}
+
+#sec3-h1{
+    max-width: 100%;
+    margin: auto;
+}
+.sec3 img{
+max-width: 100%;
+height: auto;
+}
+  }
+
+  @media only screen and (max-width: 630px)
+  {
+      .for_menu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;   
+      }
+      
+#sec3-h1{
+    max-width: 100%;
+    margin: auto;
+}
+
+.sec3 img{
+    max-width: 100%;
+    height: auto;
+    }
+    .sec-4 .for-sec4{
+        padding: 112px;
+    }
+  }
+  @media only screen and (max-width: 360px){
+    .sec-4 .for-sec4{
+        padding: 90px;
+    }
+  }
+
+
+     /* --------------------------------------- Cart--------------------*/
+
+     .cart-btn{
+        background-image: url(../img/cart/cart.png);
+        background-size: cover; 
+        
+        width:70px;
+        height: 70px;
+        
+         border-radius: 10%;
+         position: fixed;
+         top:88%;
+         left:50%;
+
+     }
+     #cart-btn .cartBtn{
+         border: none;
+     }
+
+
+     .cartOpen{
+        display: block !important;
+    }
+
+#noneDiv{
+    text-align: center;
+    border: 1px solid black;
+    width: 700px;
+    height: 490px;
+    margin: 0 auto;
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 27%;
+    overflow:auto;
+    z-index:2;
+    background:gray;
+    color:white;
+
+}
+
+.noneTempStyle{ 
+   
+    margin-left: 0;
+    text-align: center;
+    overflow:auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.noneTempStyle #btn-remove{
+    padding:11px;
+    margin-top:6.5px;
+}
+.ckout{
+    width:50px;
+    height: 50px;
+    position: fixed;
+    top:74%;
+    left:50.4%;
+    background-image:url("../img/cart/right.png"); 
+    background-size: cover;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.ckout:hover{
+    opacity: 1;
+}
+
+#checkout{
+    text-align: center;
+    border: 1px solid black;
+    width: 700px;
+    height: 490px;
+    margin: 0 auto;
+    display: none;
+    position: fixed;
+    background: #fff;
+    top: 0%;
+    left: 27%;
+    overflow:auto;
+    z-index:2;
+    background:rgb(53, 52, 52);
+    color:white;
+    display: none;
+
+}
+#checkout .go_back{
+    width:50px;
+    height: 50px;
+    position: fixed;
+    top:74%;
+    left:50.4%;
+    background-image:url("../img/cart/left.png"); 
+    background-size: cover;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+#checkout .go_back:hover{
+    opacity: 1;
+}
+.cart-btn #notification{
+    text-align: center;
+    position: absolute;
+    top:0%;
+    left:70%;
+    width:20px;
+    height:20px;
+    background:white;
+    border-radius:50%;
+}
+
+
+
+
+/* -------------------contact us ---------------------*/
+
+
+#contactUs{
+        
+    color:white;
+    padding:32px;
+    margin: auto;
+    text-align: center;
+    color:rgb(231, 224, 224);
+    background-image: url(../imgs/6.jpg);
+    background-position: center;
+    
+}
+#contactUs .details{
+    text-align: left;
+    width:400px;
+    margin:32px auto;
+}
+
+
+
+

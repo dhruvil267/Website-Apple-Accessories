@@ -1,0 +1,25 @@
+#cart
+{
+    display: none;
+}
+#title{
+    text-align: center;
+    font-size: 32px;
+    padding: 32px;
+}
+#classCart{
+    margin:32px;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap:20px;
+      text-align: center;
+      border: 1px solid black;
+      background: black;
+}
+.select-mobile{
+    border: 1px solid black;
+    margin:32px;
+    background: white;
+    color:black;
+    padding-bottom: 16px; 
+}

@@ -1,0 +1,28 @@
+1)  open login.html page.
+    in this page I have 2 accounts.
+    
+    1) username:admin
+       password:admin
+   
+     2) username:dhruvil
+        password:Dhruvil123
+
+2) iphone.html and accessories.html is for purchasing iPhone and accessories.
+   
+3) once you are in the log in page,enter username and password to go to home page.
+4) for search,dont press search button,just type in search bar and you will get result
+   and it only works for iphone.html and accessories.html
+
+    
+5)by clicking on add to cart button which is in iphone.html and accessories.html you will see notification on cart button which is blue in color and
+by clicking it you will see the items that you added.
+And by clicking --> button you will see checkout page.
+now now to close this checkout page you have to click  <-- button and then cart button to close your cart.
+5) check out form
+	I validate 
+	card number like = 1111 1111 1111 1111
+	cvv like = 111
+	date like = 2019-11 i.e year-date
+	city like = Abcd i.e Capital letter followed by small letter
+	email like=abcd@gmail.com
+and by clicking continue to checkout... you will be redirected to home page.

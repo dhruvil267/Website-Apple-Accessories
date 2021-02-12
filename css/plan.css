@@ -1,0 +1,92 @@
+#plans{
+        margin:32px auto;
+    font-weight: normal ;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+#plans .plan1{
+    padding:16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}   
+#plans .plan1 .usage{
+    height: 200px;
+    text-align: center;
+    background:grey;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border:1px solid black;
+}
+#plans .plan1 .usage1{
+    height: 200px;
+    background:grey;
+    padding: 16px;  
+    border:1px solid black;
+}
+#plans .plan1 .usage .border{
+    text-align: center;
+    height: fit-content;
+    padding: 11px;
+    border:1px solid white;
+    
+}
+#plans .plan1 .usage1 h2{
+    font-weight: normal;
+    margin-top:10px;
+    background: black;
+    color: white;
+    width: fit-content;
+    padding: 12px;
+    border: 1px solid white;
+    text-align: center;
+}
+.container{
+    background: white;
+  
+}
+#plans .plan1 .usage1 h2 a{
+    text-decoration: none;
+    color: white;
+}
+.container2{
+    width:80%;
+    color:black;
+    margin:0 auto;
+}
+.container2 .img-offer{
+    margin:32px;
+    background-image: url("../img/support/ofer2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height: 600px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.container2 h1{
+    color: black;
+    text-align: center;
+
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    #plans .plan1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 600px){
+    #plans .plan1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
